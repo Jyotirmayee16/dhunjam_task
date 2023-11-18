@@ -1,0 +1,110 @@
+
+/* 
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .bar {
+    width: 20px;
+    height: 20px;
+    background-color: #6741D9;
+    margin-bottom: 5px;
+  }
+   */
+
+   /* dashboard.css */
+
+/* Container styling */
+#dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Subheader styling */
+.dashboard-subheader {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Section styling */
+.dashboard-section {
+  margin-bottom: 20px;
+}
+
+/* Radio buttons styling */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.dashboard-radio-group input {
+  margin-right: 5px;
+}
+
+/* Input field styling */
+.dashboard-input-label {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+}
+
+.dashboard-input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Regular song request amounts styling */
+.dashboard-regular-amount {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Bar container styling */
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Bar styling */
+.bar {
+  height: 5px; /* Adjusted height to make the bars smaller */
+  background-color: #269ceb;
+  border-radius: 4px;
+}
+
+/* Save button styling */
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
